@@ -43,13 +43,18 @@
   color: white;
 }
 .App-aside{
-  width: 300px;
+  max-width: 350px;
   background-color: #70a393;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+}
+.App-aside-content{
+  width: auto;
+  padding: 0 24px;
+  background-color: #9aa370;
 }
 .App-footer{
   height: 100px;
